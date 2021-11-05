@@ -330,15 +330,12 @@ h1 {
   -moz-box-sizing: border-box;
 }
 
-.full, .contact__input input {
-  cursor: pointer;
-  padding: 2rem 0;
-}
+
 
 .contact__input input,
 .contact__input textarea {
   margin: 0 0 0.5rem 0;
-  padding-left: 10px;
+  padding: 1.5rem 0 10px 10px;
 }
 
 /* Large screens */
@@ -587,6 +584,7 @@ h1 {
   margin: 1rem 0;
   color: #cccccc;
   transition: background 0.5s ease, color 0.5s ease;
+  cursor: pointer;
 }
 
 .btn__contact:hover {
