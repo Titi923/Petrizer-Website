@@ -19,8 +19,142 @@
     ></script>
   </head>
   <body>
-    
-    
+    <div class="navigation__bar collapsible">
+      <a href="#"><img class="icon__logo" src="icons/Logo.svg" alt="" /></a>
+      <div class="icon__bar-toggler">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+      <ul class="ul__list collapsible--content">
+        <li><a href="#section_1">Home</a></li>
+        <li><a href="#section_2">Projects</a></li>
+        <li><a href="#section_3">Contact Me</a></li>
+      </ul>
+    </div>
+    <section id="section_1" class="block__center section__black">
+      <div>
+        <div class="container">
+          <h1 class="block__heading--title section__heading">
+            Junior Front End Developer
+          </h1>
+          <div class="icons__container">
+            <div class="block__contact-icons block__heading--title">
+              <div class="icon__container">
+                <a href="https://github.com/Titi923" target="_blank">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </div>
+              <div class="icon__container">
+                <a href="https://github.com/Titi923" target="_blank">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </div>
+              <div class="icon__container">
+                <a href="https://github.com/Titi923" target="_blank">
+                  <i class="fas fa-envelope fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">
+          <h2>See my projects</h2>
+          <a href="#cards">
+            <div class="btn__scroll-down"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="section_2">
+      <div class="container">
+        <h2 class="block__heading section__heading">My Projects</h2>
+        <h3 class="block__heading">Click on the cards to flip them over.</h3>
+        <div id="cards" class="container card__container grid--1x2">
+          <div class="the__flipping--card">
+            <div class="the__front--card">
+              <div class="card__photo--container">
+                <img
+                  class="card__photo"
+                  src="images/Website_1_photo.png"
+                  alt=""
+                />
+              </div>
+              <h1 class="card__heading">Modern website design</h1>
+              <a class="btn" href="">Go to Project</a>
+            </div>
+            <div class="the__back--card">
+              <div><img src="icons/Logo.svg" alt="" /></div>
+              <p>
+                Front end website, with modern design, build by me... Search
+                Engine Optimizated, Good performance, Optimized Images,
+                Accesible, Responsive Screens.
+              </p>
+              <p>Tools Used:</p>
+              <h2>
+                <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i
+                ><i class="fab fa-js-square"></i>
+              </h2>
+            </div>
+          </div>
+          <div class="the__flipping--card empty_card">
+            <div class="the__front--card">
+              <div class="card__photo--container"></div>
+              <h1>Click me!</h1>
+            </div>
+            <div class="the__back--card">
+              <div><img src="icons/Logo.svg" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section_3">
+      <div class="block__heading">
+        <h2 class="section__heading">Contact Me!</h2>
+        <div class="container block__center">
+          <div class="contact__wrapper">
+            <div class="contact__info">
+              <div><img class="logo__img" src="icons/Logo.svg" alt="" /></div>
+              <p>Send me an Email here!</p>
+            </div>
+            <div class="contact__input">
+              <form action="POST" data-netlify="true">
+                <p>
+                  <label>Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name..."
+                  />
+                </p>
+                <p>
+                  <label>Email Address</label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email..."
+                  />
+                </p>
+                <p class="full">
+                  <label>Message</label>
+                  <textarea
+                    name="message"
+                    rows="7"
+                    placeholder="What is your message for me?"
+                  ></textarea>
+                </p>
+                <p class="full">
+                  <input type="submit" value="Send Message" class="btn__contact">
+                </p>
+                <p class="full">
+                  <div data-netlify-recaptcha="true"></div>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="js/main.js"></script>
   </body>
 </html>
