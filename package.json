@@ -1,0 +1,23 @@
+{
+  "name": "Portofolio_Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Titi923/Petrizer-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Titi923/Petrizer-Website/issues"
+  },
+  "homepage": "https://github.com/Titi923/Petrizer-Website#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
