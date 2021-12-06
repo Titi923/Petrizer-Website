@@ -502,6 +502,7 @@ h1 {
   color: #ccc;
   margin: 1rem 0;
   transition: background 0.5s ease, color 0.5s ease;
+  cursor: pointer;
 }
 
 .btn:hover {
