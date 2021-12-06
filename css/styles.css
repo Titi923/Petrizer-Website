@@ -566,7 +566,7 @@ h1 {
 }
 
 .card__heading {
-  margin: 5rem 0;
+  margin: 3rem 1.25rem;
 }
 
 .logo__img {
@@ -597,3 +597,6 @@ h1 {
     background: var(--color__btn--primary-hover);
     color: #ffffff;
 }
+
+/* Adding Dark Mode */
+
