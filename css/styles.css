@@ -79,7 +79,7 @@ body {
 
 .icon__container:hover {
   background: #ffffff;
-  box-shadow: 0 0 10px 3px #584e4e;
+  box-shadow: 0 0 10px 3px #ffffff;
 }
 
 @media screen and (min-width:768px) {
