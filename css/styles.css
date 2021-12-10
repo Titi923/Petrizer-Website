@@ -104,7 +104,7 @@ body {
 }
 
 #section_1 {
-  padding: 21rem 0;
+  padding: 16rem 0 21rem 0;
 }
 
 .section__black i {
@@ -602,3 +602,17 @@ h1 {
 
 /* Adding Dark Mode */
 
+.night__mode--toggler {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.night__mode--toggler .icon__container {
+  margin: 0 3rem 0 2rem;
+}
+
+.fa-moon {
+ color: #000000;
+}

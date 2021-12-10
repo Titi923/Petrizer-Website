@@ -13,3 +13,10 @@ card__flipping.forEach((item) =>
     this.classList.toggle('the__flipping--card-flip');
   })
 );
+
+const dark__mode = document.querySelectorAll('.night__mode');
+card__flipping.forEach((item) =>
+  item.addEventListener('click', function () {
+    this.classList.toggle('night__mode--on');
+  })
+);
