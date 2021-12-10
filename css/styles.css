@@ -22,12 +22,13 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+  font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
   font-size: 2rem;
   background: #6200ff;
   color: var(--color-body);
+  transition: all 0.3s linear;
 }
 
 .container {
@@ -73,8 +74,9 @@ body {
   transition: box-shadow 0.3s ease, background 0.3s ease;
 }
 
-.icon__container, .fas .fa-linkedin {
-    margin: 0 2rem;
+.icon__container,
+.fas .fa-linkedin {
+  margin: 0 2rem;
 }
 
 .icon__container:hover {
@@ -82,10 +84,10 @@ body {
   box-shadow: 0 0 10px 3px #ffffff;
 }
 
-@media screen and (min-width:768px) {
-    .icon__container {
-        margin: 0 5rem;
-    }
+@media screen and (min-width: 768px) {
+  .icon__container {
+    margin: 0 5rem;
+  }
 }
 
 /* Navigation-bar */
@@ -220,7 +222,7 @@ h1 {
 
 .btn__scroll-down::before,
 .btn__scroll-down::after {
-  content: "";
+  content: '';
   border: 2px solid black;
   width: 10px;
   height: 10px;
@@ -297,7 +299,7 @@ h1 {
 }
 
 .contact__info::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 4.35rem;
   height: 4.5rem;
@@ -334,8 +336,6 @@ h1 {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
-
 
 .contact__input input,
 .contact__input textarea {
@@ -392,7 +392,7 @@ h1 {
   }
 
   .contact__info::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 10rem;
     height: 10.1rem;
@@ -580,11 +580,12 @@ h1 {
   justify-content: center;
 }
 
-.btn, .btn__contact {
-    font-weight: bold;
+.btn,
+.btn__contact {
+  font-weight: bold;
 }
 
-.btn__contact{
+.btn__contact {
   border: none;
   background: var(--color__btn--primary);
   padding: 1.5rem 10rem;
@@ -596,23 +597,128 @@ h1 {
 }
 
 .btn__contact:hover {
-    background: var(--color__btn--primary-hover);
-    color: #ffffff;
+  background: var(--color__btn--primary-hover);
+  color: #ffffff;
 }
 
 /* Adding Dark Mode */
 
-.night__mode--toggler {
+.checkbox {
+  opacity: 0;
+  margin: 2rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-top: 1.5rem;
 }
 
-.night__mode--toggler .icon__container {
-  margin: 0 3rem 0 2rem;
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+  margin: 0 4rem;
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.3rem;
+  left: -0.2rem;
+  height: 2.9rem;
+  width: 2.9rem;
+  transform: translateX(0.45rem);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(3rem);
 }
 
 .fa-moon {
- color: #000000;
+  color: #ffcc00;
+}
+
+.fa-sun {
+  color: #ff9900;
+}
+
+.night__mode__container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: end;
+}
+
+.dark {
+  transition: background 0.3s linear;
+}
+
+body.dark {
+  background: #2e2e30;
+}
+
+body.dark .the__front--card {
+  background: #292929;
+  box-shadow: 0px 0px 20px 10px #9695953f;
+}
+
+body.dark .the__back--card {
+  background: #252627;
+  box-shadow: 0px 0px 20px 10px #9695953f;
+}
+
+body.dark .btn {
+  background: #000;
+}
+
+body.dark .btn:hover {
+  background: #111111;
+}
+
+body.dark .btn__contact {
+  background: #000;
+}
+
+body.dark .btn__contact:hover {
+  background: #111111;
+}
+
+body.dark .contact__wrapper {
+  box-shadow: 0px 0px 50px 5px rgb(34, 34, 34);
+}
+
+body.dark .contact__info {
+  background: linear-gradient(135deg, transparent 30px, #202020 0);
+}
+
+body.dark .contact__info::before {
+  background: linear-gradient(135deg, transparent 30px, #252525 0);
+  box-shadow: 4px 3px 4px #000;
+}
+
+@media screen and (min-width: 768px) {
+  body.dark .contact__info::before {
+    background: linear-gradient(135deg, transparent 70px, #252525 0);
+    box-shadow: 4px 3px 4px #000;
+  }
+  body.dark .contact__info {
+    background: linear-gradient(135deg, transparent 70px, #202020 0);
+  }
+}
+
+body.dark .contact__input {
+  background: #37383a;
+}
+
+body.dark input,
+body.dark textarea {
+  border: 3px solid #000000;
 }

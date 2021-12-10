@@ -14,9 +14,7 @@ card__flipping.forEach((item) =>
   })
 );
 
-const dark__mode = document.querySelectorAll('.night__mode');
-card__flipping.forEach((item) =>
-  item.addEventListener('click', function () {
-    this.classList.toggle('night__mode--on');
-  })
-);
+const night__mode = document.getElementById('night__mode');
+night__mode.addEventListener('change', function () {
+	document.body.classList.toggle('dark');
+});
