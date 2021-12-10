@@ -11,12 +11,12 @@ body {
 }
 
 .card {
-  background: #000000d0;
+  background: #000000ec;
   color: white;
-  padding: 2em;
+  padding: 3rem 2rem;
   border-radius: 30px;
   width: 100%;
-  max-width: 420px;
+  max-width: 40rem;
   margin: 1em;
 }
 
@@ -60,14 +60,22 @@ h1.temp {
   margin-bottom: 0.4em;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
+
 .flex {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .description {
   text-transform: capitalize;
   margin-left: 8px;
+  text-align: center;
 }
 
 .weather.loading {
@@ -83,4 +91,8 @@ h1.temp {
   position: absolute;
   top: 0;
   left: 20px;
+}
+
+.humidity, .wind {
+  text-align: center;
 }
