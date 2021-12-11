@@ -610,7 +610,6 @@ h1 {
 @media screen and (min-width:768px) {
   #recaptcha {
     padding-top: 0;
-    padding-left: 185px;
   }
 
   .g-recaptcha {
