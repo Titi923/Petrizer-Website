@@ -602,6 +602,11 @@ h1 {
 }
 
 /* Change recaptcha position */
+.recaptcha__box {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width:768px) {
   #recaptcha {
     padding-top: 0;
@@ -610,6 +615,7 @@ h1 {
 
   .g-recaptcha {
     padding-top: 0;
+    padding-bottom: 30px;
   }
 
   .contact__input, .full, #contact__form {
