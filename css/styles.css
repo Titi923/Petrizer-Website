@@ -601,6 +601,23 @@ h1 {
   color: #ffffff;
 }
 
+/* Change recaptcha position */
+@media screen and (min-width:768px) {
+  #recaptcha {
+    padding-top: 0;
+    padding-left: 185px;
+  }
+
+  * > .contact__wrapper {
+    padding-top: 0;
+  }
+
+  .contact__input, .full {
+    padding-bottom: 0;
+  }
+
+}
+
 /* Adding Dark Mode */
 
 .checkbox {
