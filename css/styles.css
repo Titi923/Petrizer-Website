@@ -608,11 +608,11 @@ h1 {
     padding-left: 185px;
   }
 
-  * > .contact__wrapper {
+  .g-recaptcha {
     padding-top: 0;
   }
 
-  .contact__input, .full {
+  .contact__input, .full, #contact__form {
     padding-bottom: 0;
   }
 
