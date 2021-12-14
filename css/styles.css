@@ -745,3 +745,9 @@ body.dark input,
 body.dark textarea {
   border: 3px solid #000000;
 }
+
+/* Fixing contact logo bug */
+
+#logo__contact--box {
+  width: 100%;
+}
