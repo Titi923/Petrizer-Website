@@ -39,9 +39,9 @@
 }
 
 .tile {
-    border: 5px solid white;
-    min-width: 20rem;
-    min-height: 20rem;
+    border: 2px solid white;
+    min-width: 10rem;
+    min-height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
