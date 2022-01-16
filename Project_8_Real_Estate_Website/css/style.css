@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
-  color: #b6a129;
+  color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6; }
 
@@ -46,7 +46,7 @@ body {
   .heading-2--light {
     color: #f9f7f6; }
   .heading-2--dark {
-    color: #473e33; }
+    color: #54483A; }
 
 .heading-3 {
   font-size: 1.6rem;
@@ -58,10 +58,10 @@ body {
   .heading-4--light {
     color: #f9f7f6; }
   .heading-4--dark {
-    color: #443728; }
+    color: #54483A; }
 
 .btn {
-  background-color: #e98812;
+  background-color: #c69963;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -87,7 +87,7 @@ body {
   margin-bottom: 8rem; }
 
 .sidebar {
-  background-color: #facd03;
+  background-color: #c69963;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
