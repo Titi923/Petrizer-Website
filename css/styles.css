@@ -13,6 +13,8 @@
   --color__contact-input: #00aeff;
   --color__btn--primary: #3b009b;
   --color__btn--primary-hover: #2b0070;
+  --typewriterSpeed: 6s;
+  --typewriterCharacters: 24;
 }
 
 html {
@@ -752,4 +754,58 @@ body.dark textarea {
 
 #logo__contact--box {
   width: 100%;
+}
+
+/* Typing effect */
+
+#typing {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  position: relative;
+  width: max-content;
+}
+
+#typing::before,
+#typing::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#typing::before {
+  background: var(--color-primary);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+#typing::after {
+  width: 0.125em;
+  background: black;
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
