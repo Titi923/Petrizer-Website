@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Itim', cursive;
+    font-family: 'Caveat', cursive;
 }
 
 .background {
@@ -41,8 +41,8 @@
 
 .tile {
     border: 2px solid white;
-    width: 10rem;
-    height: 10rem;
+    width: 17%;
+    height: 17%;
     display: flex;
     justify-content: center;
     align-items: center;
