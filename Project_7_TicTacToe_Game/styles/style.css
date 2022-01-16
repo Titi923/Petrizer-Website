@@ -11,23 +11,18 @@
 }
 
 .title {
-    color: #ffffff;
+    color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 40px;
     margin-top: 10%;
 }
 
 .display {
-    color: #ffffff;
-    font-size: 3.5rem;
+    color: white;
+    font-size: 25px;
     text-align: center;
-    margin-top: 0;
+    margin-top: 1em;
     margin-bottom: 1em;
-}
-
-h1 {
-    margin-top: 0; 
-    padding-top: 0;
 }
 
 .hide {
@@ -37,30 +32,29 @@ h1 {
 .container {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    max-width: 50%;
-    max-height: 50%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
 
 }
 
 .tile {
-    border: 2px solid white;
-    min-width: 10rem;
-    min-height: 10rem;
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 8rem;
+    font-size: 50px;
     cursor: pointer;
 }
 
 .playerX {
-    color: #d62a0c;
+    color: #fa3d03;
 }
 
 .playerO {
-    color: #3172e2;
+    color: #3374e4;
 }
 
 .controls {
@@ -82,11 +76,9 @@ h1 {
 }
 
 .restart {
-    background-color: #498AFB;
+    background-color: #397df1;
 }
 
 #reset {
-    background-color: #FF3860;
-    padding: 2rem 4rem;
-    font-size: 3rem;
+    background-color: #741adb;
 }
