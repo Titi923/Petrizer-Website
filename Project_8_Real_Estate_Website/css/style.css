@@ -61,7 +61,7 @@ body {
     color: #54483A; }
 
 .btn {
-  background-color: #a96c30;
+  background-color: #a36324;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -72,7 +72,7 @@ body {
   cursor: pointer;
   transition: all .2s; }
   .btn:hover {
-    background-color: #B28451; }
+    background-color: #bb7936; }
 
 .mb-sm {
   margin-bottom: 2rem; }
@@ -87,7 +87,7 @@ body {
   margin-bottom: 8rem; }
 
 .sidebar {
-  background-color: #c69963;
+  background-color: #d79341;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
@@ -238,7 +238,7 @@ body {
     font-size: 1.7rem; }
 
 .story__pictures {
-  background-color: #c69963;
+  background-color: #d79341;
   grid-column: full-start / col-end 4;
   background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(../img/back.jpg);
   background-size: cover;
