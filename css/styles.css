@@ -763,10 +763,10 @@ body.dark textarea {
   border-right: 0.5rem solid black; 
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 0.15rem; 
+  letter-spacing: 0.175rem; 
   animation: 
     typing 2.5s steps(40, end),
-    blink-caret .75s step-end;
+    blink-caret .75s step-end 10s;
 }
 
 @keyframes typing {
