@@ -766,7 +766,8 @@ body.dark textarea {
   letter-spacing: 0.175rem; 
   animation: 
     typing 2.5s steps(40, end),
-    blink-caret .75s step-end 10s;
+    blink-caret .75s step-end;
+    animation-iteration-count: 2;
 }
 
 @keyframes typing {
