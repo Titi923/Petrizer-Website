@@ -81,6 +81,8 @@
 #reset {
     background-color: #741adb;
     font-size: 40px;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 h1 {
