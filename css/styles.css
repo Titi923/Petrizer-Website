@@ -198,6 +198,7 @@ h1 {
   border-bottom: 3px solid #ffffff;
   padding-bottom: 2rem;
   text-align: center;
+  margin-top: 5rem;
 }
 
 .block__heading {
@@ -759,8 +760,7 @@ body.dark textarea {
 
 /* Typing effect */
 .my__name {
-  margin-bottom: 3rem;
-  font-size: 6rem;
+  font-size: 6.5rem;
 }
 
 .typewriter .my__name{
