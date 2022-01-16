@@ -759,6 +759,7 @@ body.dark textarea {
 }
 
 /* Typing effect */
+@media screen and (min-width:1000px) {
 
 .typewriter h1{
   text-align: center;
@@ -780,4 +781,6 @@ body.dark textarea {
 @keyframes blink-caret {
   from, to { border-right-color: transparent }
   50% { border-right-color: #222222}
+}
+
 }
