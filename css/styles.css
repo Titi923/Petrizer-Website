@@ -758,7 +758,7 @@ body.dark textarea {
 }
 
 /* Typing effect */
-.typewriter h1 {
+.typewriter {
   overflow: hidden; 
   border-right: 0.5rem solid #222222;
   white-space: nowrap;
