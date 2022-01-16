@@ -759,54 +759,29 @@ body.dark textarea {
 
 /* Typing effect */
 
-#typing {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+.line-1{
   position: relative;
-  font-family: "Source Code Pro", monospace;
-  position: relative;
-  width: max-content;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
 }
 
-#typing::before,
-#typing::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
 }
-
-#typing::before {
-  background: var(--color__background);
-  animation: typewriter var(--typewriterSpeed)
-    steps(var(--typewriterCharacters)) 1s forwards;
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
 }
-
-#typing::after {
-  width: 0.125rem;
-  background: black;
-  animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 1s forwards,
-    blink 750ms steps(var(--typewriterCharacters)) infinite;
-}
-
-@keyframes typewriter {
-  to {
-    left: 100%;
-  }
-}
-
-@keyframes blink {
-  to {
-    background: transparent;
-  }
-}
-
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
 }
