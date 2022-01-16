@@ -760,13 +760,13 @@ body.dark textarea {
 /* Typing effect */
 .typewriter h1 {
   overflow: hidden; 
-  border-right: 0.3rem solid black; 
+  border-right: 0.5rem solid black; 
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15rem; 
   animation: 
     typing 2.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    blink-caret .75s step-end;
 }
 
 @keyframes typing {
