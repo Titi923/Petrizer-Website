@@ -13,6 +13,7 @@
   --color__contact-input: #00aeff;
   --color__btn--primary: #3b009b;
   --color__btn--primary-hover: #2b0070;
+  --color__background: #6200ff;
   --typewriterSpeed: 6s;
   --typewriterCharacters: 24;
 }
@@ -28,7 +29,7 @@ body {
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
   font-size: 2rem;
-  background: #6200ff;
+  background: var(--color__background);
   color: var(--color-body);
   transition: all 0.3s linear;
 }
@@ -778,13 +779,13 @@ body.dark textarea {
 }
 
 #typing::before {
-  background: var(--color-primary);
+  background: var(--color__background);
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards;
 }
 
 #typing::after {
-  width: 0.125em;
+  width: 0.125rem;
   background: black;
   animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 1s forwards,
