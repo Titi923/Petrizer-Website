@@ -759,7 +759,7 @@ body.dark textarea {
 
 /* Typing effect */
 .typewriter h2{
-  margin-bottom: 3.5rem;
+  text-align: center;
   font-size: 5rem;
   overflow: hidden; 
   border-right: 0.5rem solid #222222;
@@ -767,7 +767,7 @@ body.dark textarea {
   margin: 0 auto;
   letter-spacing: 0.16rem; 
   animation: 
-    typing 2.5s steps(10, end),
+    typing 2.5s steps(40, end),
     blink-caret 0.75s step-end infinite ;
 }
 
