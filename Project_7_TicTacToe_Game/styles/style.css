@@ -40,8 +40,8 @@
 
 .tile {
     border: 2px solid white;
-    min-width: 10rem;
-    min-height: 10rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
