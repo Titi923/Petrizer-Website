@@ -760,10 +760,10 @@ body.dark textarea {
 /* Typing effect */
 .typewriter h1 {
   overflow: hidden; 
-  border-right: 0.15rem solid black; 
+  border-right: 0.3rem solid black; 
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 0.10rem; 
+  letter-spacing: 0.125rem; 
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
