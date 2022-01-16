@@ -778,4 +778,8 @@ body.dark textarea {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color:green } }
+  50% { border-color: white } }
+
+  h1 {
+    overflow-y: visible;
+  }
