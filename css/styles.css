@@ -758,9 +758,13 @@ body.dark textarea {
 }
 
 /* Typing effect */
-.typewriter h2{
+.my__name {
+  margin-bottom: 3rem;
+  font-size: 8rem;
+}
+
+.typewriter .my__name{
   text-align: center;
-  font-size: 5rem;
   overflow: hidden; 
   border-right: 0.5rem solid #222222;
   white-space: nowrap;
