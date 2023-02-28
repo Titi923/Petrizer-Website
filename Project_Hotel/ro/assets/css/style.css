@@ -13831,3 +13831,11 @@ blockquote .blockquote-contents-title {
   font-size: 32px;
   line-height: 48px;
 }
+
+/* FIX NAVBAR MOBILE TOGGLER POSITON */
+@media only screen and (max-width: 991px) {
+  .navbar-area .navbar-toggler {
+    transform: translateY(-75%);
+  }
+}
+/* FIX NAVBAR MOBILE TOGGLER POSITON END*/
