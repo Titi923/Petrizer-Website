@@ -7,7 +7,7 @@
    width="500"
    height="500"
    viewBox="0 0 500 500"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logo - Copy.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    inkscape:export-filename="logo.svg"
    inkscape:export-xdpi="96"
@@ -22,8 +22,8 @@
     <rect
        x="30.817832"
        y="235.2917"
-       width="436.83054"
-       height="57.233116"
+       width="93.524783"
+       height="13.953415"
        id="rect965" />
     <rect
        x="126.59824"
@@ -49,8 +49,8 @@
      inkscape:deskcolor="#ffffff"
      showgrid="false"
      inkscape:zoom="1.4455179"
-     inkscape:cx="210.30525"
-     inkscape:cy="251.46697"
+     inkscape:cx="246.62441"
+     inkscape:cy="258.3849"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -116,11 +116,13 @@
     </g>
     <text
        xml:space="preserve"
-       transform="matrix(5.670449,0,0,5.670449,-39.466713,-968.95651)"
+       transform="matrix(5.670449,0,0,5.670449,-60.021151,-968.95651)"
        id="Title"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9742px;font-family:LTCRecordTitleW00-Regular;-inkscape-font-specification:'LTCRecordTitleW00-Regular, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect965);display:inline;fill:#e9e2e2;fill-opacity:1;stroke:none;stroke-width:0.302717;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;image-rendering:optimizeQuality"><tspan
-         x="30.818359"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9742px;font-family:LTCRecordTitleW00-Regular;-inkscape-font-specification:'LTCRecordTitleW00-Regular, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect965);display:inline;fill:#e9e2e2;fill-opacity:1;stroke:none;stroke-width:0.302717;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;image-rendering:optimizeQuality"
+       x="44.765545"
+       y="0"><tspan
+         x="32.365498"
          y="247.40891"
-         id="tspan5601">HOTEL OLIMP</tspan></text>
+         id="tspan298">HOTEL OL IMP</tspan></text>
   </g>
 </svg>
