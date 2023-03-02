@@ -13813,10 +13813,6 @@ blockquote .blockquote-contents-title {
   .mouse-move { display: none !important; }
 }
 
-.logo-wrapper {
-  font-family: LTCRecordTitleW00;
-}
-
 .logo-wrapper .logo img{
   border-radius: 5px !important;
   box-shadow: 0px 0px 10px 1px #1825368f;
