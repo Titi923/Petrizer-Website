@@ -52,13 +52,10 @@
      style="display:inline"
      transform="matrix(1.3280216,0,0,0.35618899,-120.42554,-38.121156)"
      sodipodi:insensitive="true">
-    <rect
-       style="fill:#192436;fill-opacity:1;stroke:#e8e2e2;stroke-width:1.29576;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+    <path
        id="rect1769"
-       width="383.70282"
-       height="389.60596"
-       x="88.159027"
-       y="83.890839" />
+       style="fill:#192436;stroke:#e8e2e2;stroke-width:1.29576;stroke-linecap:round;stroke-linejoin:round"
+       d="M 88.159027,83.890839 H 471.86185 V 473.4968 H 88.159027 Z" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -97,13 +94,41 @@
          d="m 17.124112,14.643618 4.008922,9.032766 7.256665,-4.26265 -2.182079,12.483482 -8.982017,-0.101493"
          id="path4095-3-2" />
     </g>
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="HOTEL OLIMP"
        transform="matrix(5.670449,0,0,5.670449,-39.466713,-968.95651)"
        id="Title"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9742px;font-family:LTCRecordTitleW00-Regular;-inkscape-font-specification:'LTCRecordTitleW00-Regular, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect965);display:inline;fill:#e9e2e2;fill-opacity:1;stroke:none;stroke-width:0.302717;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;image-rendering:optimizeQuality"><tspan
-         x="30.818359"
-         y="245.88538"
-         id="tspan32">HOTEL OLIMP</tspan></text>
+       style="font-size:11.9742px;font-family:LTCRecordTitleW00-Regular;-inkscape-font-specification:'LTCRecordTitleW00-Regular, Normal';white-space:pre;shape-inside:url(#rect965);display:inline;fill:#e9e2e2;stroke-width:0.302717;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;image-rendering:optimizeQuality">
+      <path
+         d="m 31.993562,237.15614 h 1.181049 v 3.57823 h 4.291534 v -3.57823 h 1.181049 v 8.72924 h -1.181049 v -4.15706 h -4.291534 v 4.15706 h -1.181049 z"
+         id="path18" />
+      <path
+         d="m 44.540746,237.95715 q -1.286291,0 -2.046372,0.95887 -0.754235,0.95887 -0.754235,2.61351 0,1.64879 0.754235,2.60766 0.760081,0.95887 2.046372,0.95887 1.286291,0 2.034678,-0.95887 0.754235,-0.95887 0.754235,-2.60766 0,-1.65464 -0.754235,-2.61351 -0.748387,-0.95887 -2.034678,-0.95887 z m 0,-0.95888 q 1.835888,0 2.935082,1.23367 1.099194,1.22783 1.099194,3.29759 0,2.06391 -1.099194,3.29758 -1.099194,1.22782 -2.935082,1.22782 -1.841735,0 -2.946776,-1.22782 -1.099194,-1.22782 -1.099194,-3.29758 0,-2.06976 1.099194,-3.29759 1.105041,-1.23367 2.946776,-1.23367 z"
+         id="path20" />
+      <path
+         d="m 49.212322,237.15614 h 7.384479 v 0.99395 h -3.098792 v 7.73529 h -1.186895 v -7.73529 h -3.098792 z"
+         id="path22" />
+      <path
+         d="m 57.736922,237.15614 h 5.519358 v 0.99395 h -4.338309 v 2.58428 h 4.157059 v 0.99395 h -4.157059 v 3.1631 h 4.443551 v 0.99396 h -5.6246 z"
+         id="path24" />
+      <path
+         d="M 65.302651,237.15614 H 66.4837 v 7.73528 h 4.250608 v 0.99396 h -5.431657 z"
+         id="path26" />
+      <path
+         d="m 79.323223,237.95715 q -1.286291,0 -2.046372,0.95887 -0.754234,0.95887 -0.754234,2.61351 0,1.64879 0.754234,2.60766 0.760081,0.95887 2.046372,0.95887 1.286291,0 2.034679,-0.95887 0.754234,-0.95887 0.754234,-2.60766 0,-1.65464 -0.754234,-2.61351 -0.748388,-0.95887 -2.034679,-0.95887 z m 0,-0.95888 q 1.835888,0 2.935082,1.23367 1.099195,1.22783 1.099195,3.29759 0,2.06391 -1.099195,3.29758 -1.099194,1.22782 -2.935082,1.22782 -1.841735,0 -2.946776,-1.22782 -1.099194,-1.22782 -1.099194,-3.29758 0,-2.06976 1.099194,-3.29759 1.105041,-1.23367 2.946776,-1.23367 z"
+         id="path28" />
+      <path
+         d="m 85.205083,237.15614 h 1.181049 v 7.73528 h 4.250607 v 0.99396 h -5.431656 z"
+         id="path30" />
+      <path
+         d="m 91.876256,237.15614 h 1.181049 v 8.72924 h -1.181049 z"
+         id="path32" />
+      <path
+         d="m 95.407708,237.15614 h 1.75988 l 2.227622,5.94032 2.23932,-5.94032 h 1.75988 v 8.72924 h -1.15182 v -7.66513 l -2.251008,5.9871 h -1.186896 l -2.25101,-5.9871 v 7.66513 h -1.145968 z"
+         id="path34" />
+      <path
+         d="m 106.92002,238.1267 v 3.28004 h 1.48508 q 0.82439,0 1.2746,-0.42681 0.4502,-0.42681 0.4502,-1.21613 0,-0.78347 -0.4502,-1.21028 -0.45021,-0.42682 -1.2746,-0.42682 z m -1.18105,-0.97056 h 2.66613 q 1.46754,0 2.21593,0.66653 0.75423,0.66069 0.75423,1.94113 0,1.29214 -0.75423,1.95282 -0.74839,0.66069 -2.21593,0.66069 h -1.48508 v 3.50807 h -1.18105 z"
+         id="path36" />
+    </g>
   </g>
 </svg>
