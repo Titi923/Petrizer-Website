@@ -13813,11 +13813,8 @@ blockquote .blockquote-contents-title {
   .mouse-move { display: none !important; }
 }
 
-.logo-wrapper {
+.logo-wrapper .logo img{
   box-shadow: -2px 1px 10px 1px #1825369e;
-}
-
-.logo-wrapper, .logo img{
   border-radius: 5px !important;
 }
 
@@ -13827,15 +13824,15 @@ blockquote .blockquote-contents-title {
   }
 }
 
+/* FIX NAVBAR MOBILE TOGGLER POSITON */
+@media only screen and (max-width: 991px) {
+  .navbar-area .navbar-toggler {
+    transform: translateY(-85%);
+  }
+}
+/* FIX NAVBAR MOBILE TOGGLER POSITON END*/
+
 .custom--banner-single-content-title {
   font-size: 32px;
   line-height: 48px;
 }
-
-/* FIX NAVBAR MOBILE TOGGLER POSITON */
-@media only screen and (max-width: 991px) {
-  .navbar-area .navbar-toggler {
-    transform: translateY(-75%);
-  }
-}
-/* FIX NAVBAR MOBILE TOGGLER POSITON END*/
