@@ -26,14 +26,14 @@
      showgrid="false"
      inkscape:lockguides="true"
      inkscape:zoom="4.1020923"
-     inkscape:cx="35.225926"
+     inkscape:cx="33.641369"
      inkscape:cy="44.977047"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs917" />
   <g
@@ -41,12 +41,12 @@
      id="layer2"
      inkscape:label="Background">
     <rect
-       style="fill:#192436;stroke:#e8e2e2;stroke-width:0.463021;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+       style="fill:#192436;fill-opacity:1;stroke:#e8e2e2;stroke-width:0.475969;stroke-linecap:round;stroke-linejoin:round"
        id="rect1549"
-       width="26.831835"
-       height="27.347834"
-       x="-0.1289992"
-       y="-0.38699761" />
+       width="28.366879"
+       height="27.334887"
+       x="-1.0900193"
+       y="-0.18702492" />
   </g>
   <g
      inkscape:label="Crown"
