@@ -13813,6 +13813,7 @@ blockquote .blockquote-contents-title {
   .mouse-move { display: none !important; }
 }
 
+/* CUSTOM NAVBAR */
 .logo-wrapper .logo img{
   box-shadow: -2px 1px 10px 1px #1825369e;
   border-radius: 5px !important;
@@ -13827,10 +13828,13 @@ blockquote .blockquote-contents-title {
 /* FIX NAVBAR MOBILE TOGGLER POSITON */
 @media only screen and (max-width: 991px) {
   .navbar-area .navbar-toggler {
-    transform: translateY(-85%);
+    transform: translateY(-75%);
   }
 }
 /* FIX NAVBAR MOBILE TOGGLER POSITON END*/
+@media only screen and (max-width: 991px)
+{ .navbar-area .nav-container .navbar-collapse .navbar-nav { background: #eee; } }
+/* CUSTOM NAVBAR END */
 
 .custom--banner-single-content-title {
   font-size: 32px;

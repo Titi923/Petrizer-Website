@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="svg9"
-   viewBox="0 0 500.00001 149.99999"
+   viewBox="0 0 500.00001 119.99999"
    version="1.1"
-   sodipodi:docname="logo_2.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    width="500"
-   height="150"
+   height="120"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,14 +22,14 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.5705795"
-     inkscape:cx="226.34957"
-     inkscape:cy="172.22942"
+     inkscape:cx="262.0052"
+     inkscape:cy="171.59271"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4" />
+     inkscape:current-layer="svg9" />
   <defs
      id="defs4">
     <style
@@ -66,7 +66,7 @@
   </defs>
   <g
      id="layer3"
-     transform="matrix(1.0014683,0,0,0.3057611,-0.37474962,-4.1173558)">
+     transform="matrix(1.001636,0,0,0.25187876,-0.4175444,-4.4071618)">
     <rect
        id="rect1769"
        class="cls-2"
@@ -79,7 +79,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Layer 1"
-     transform="translate(0,24.14024)">
+     transform="translate(0,9.14024)">
     <g
        aria-label="HOTEL OLIMP"
        id="text2838"
