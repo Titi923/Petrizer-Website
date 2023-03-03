@@ -561,25 +561,14 @@
     $("#footer").load("components/footer.html");    
 
     // Fix Masonry on very first visit
-    // init Masonry
-    // var $grid = $('.grid').masonry({
-    //     itemSelector: '.grid-item',
-    //     percentPosition: true,
-    //     columnWidth: '.grid-sizer'
-    // });
-    
-    // // layout Masonry after each image loads
-    // $grid.imagesLoaded().progress( function() {
-    //     $grid.masonry();
-    // });
+    $('#gallery').imagesLoaded(function() {
+        $('#gallery').masonry({
+            itemSelector: '.gallery-item'
+        });
+    });
     // Fix Masonry on very first visit END
     
-    //updated selectors
-$('#gallery').imagesLoaded(function() {
-    $('#gallery').masonry({
-        itemSelector: '.gallery-item'
-    });
-});
+   
     // Custom js END
 
 })(jQuery);

@@ -14001,7 +14001,7 @@ blockquote .blockquote-contents-title {
 
 @media (min-width: 300px) and (max-width: 991.98px) {
   .navbar-area .nav-container .logo-wrapper {
-    height: 32px !important;
+    height: 32px;
   }
 }
 
