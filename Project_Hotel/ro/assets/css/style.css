@@ -13828,7 +13828,7 @@ blockquote .blockquote-contents-title {
 /* FIX NAVBAR MOBILE TOGGLER POSITON */
 @media only screen and (max-width: 991px) {
   .navbar-area .navbar-toggler {
-    transform: translateY(-75%);
+    transform: translateY(-75%) !important;
   }
 }
 /* FIX NAVBAR MOBILE TOGGLER POSITON END*/
