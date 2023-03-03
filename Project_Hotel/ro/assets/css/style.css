@@ -13809,32 +13809,9 @@ blockquote .blockquote-contents-title {
 
 /* Custom CSS */
 /* if user is from a phone deactivate the mouse-move script to not induce in error the user (because when he taps somewhere, the cirlce remains in that location) */
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   .mouse-move { display: none !important; }
 }
-
-/* CUSTOM NAVBAR */
-.logo-wrapper .logo img{
-  box-shadow: -2px 1px 10px 1px #1825369e;
-  border-radius: 5px !important;
-}
-
-@media (min-width: 300px) and (max-width: 991.98px) {
-  .navbar-area .nav-container .logo-wrapper {
-    height: 32px;
-  }
-}
-
-/* FIX NAVBAR MOBILE TOGGLER POSITON */
-@media only screen and (max-width: 991px) {
-  .navbar-area .navbar-toggler {
-    transform: translateY(-75%) !important;
-  }
-}
-/* FIX NAVBAR MOBILE TOGGLER POSITON END*/
-@media only screen and (max-width: 991px)
-{ .navbar-area .nav-container .navbar-collapse .navbar-nav { background: #eee; } }
-/* CUSTOM NAVBAR END */
 
 .custom--banner-single-content-title {
   font-size: 32px;
@@ -14015,3 +13992,26 @@ blockquote .blockquote-contents-title {
   }
 }
 /* FIX NAVBAR 991 breakpoint END */
+
+/* CUSTOM NAVBAR */
+.logo-wrapper .logo img{
+  box-shadow: -2px 1px 10px 1px #1825369e !important;
+  border-radius: 5px !important;
+}
+
+@media (min-width: 300px) and (max-width: 991.98px) {
+  .navbar-area .nav-container .logo-wrapper {
+    height: 32px !important;
+  }
+}
+
+/* FIX NAVBAR MOBILE TOGGLER POSITON */
+@media only screen and (max-width: 991px) {
+  .navbar-area .navbar-toggler {
+    transform: translateY(-75%) !important;
+  }
+}
+/* FIX NAVBAR MOBILE TOGGLER POSITON END*/
+@media only screen and (max-width: 991px)
+{ .navbar-area .nav-container .navbar-collapse .navbar-nav { background: #eee !important; } }
+/* CUSTOM NAVBAR END */
