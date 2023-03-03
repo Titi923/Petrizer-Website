@@ -559,4 +559,17 @@
     // Load the header and the footer dinamicaly from a template 
     $("#header").load("components/header.html");
     $("#footer").load("components/footer.html");    
+
+    // Workaround masonry
+    // init Masonry
+    var $grid = $('.grid').masonry({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        columnWidth: '.grid-sizer'
+    });
+    
+    // layout Masonry after each image loads
+    $grid.imagesLoaded().progress( function() {
+        $grid.masonry();
+    });
 })(jQuery);
