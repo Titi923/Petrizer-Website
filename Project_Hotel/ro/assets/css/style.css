@@ -14015,3 +14015,34 @@ blockquote .blockquote-contents-title {
 @media only screen and (max-width: 991px)
 { .navbar-area .nav-container .navbar-collapse .navbar-nav { background: #eee !important; } }
 /* CUSTOM NAVBAR END */
+
+
+/* LISTING ROOMS FIX CARD IMG HEIGHT */
+.hotel-view-grid-thumb {
+  height: 195px !important;
+}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .hotel-view-grid-thumb {
+    height: 194px !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 991.98px) {
+  .hotel-view-grid-thumb {
+      height: 157px !important;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .hotel-view-grid-thumb {
+    height: 241px !important;
+  }
+}
+/* LISTING ROOMS FIX CARD IMG HEIGHT END */
+
+/* FIX BACK TO TOP INDEX POSITION */
+.back-to-top {
+  z-index: 9999 !important;
+}
+/* FIX BACK TO TOP INDEX POSITION END */
