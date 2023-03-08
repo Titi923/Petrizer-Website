@@ -17,7 +17,7 @@ Version: 1.0.0
 # Normalize
 --------------------------------------------------------------*/
 :root {
-  --main-color-one: #1E84FE;
+  --main-color-one: #0091ff;
   --main-color-one-rgb: 30, 132, 254;
   --secondary-color: #FF8C32;
   --secondary-color-rgb: 255, 140, 50;
@@ -25,7 +25,7 @@ Version: 1.0.0
   --section-bg-1: #F6F7F8;
   --section-bg-2: #F2F4F7;
   --footer-bg-1: #27282B;
-  --footer-bg-2: #1E84FE;
+  --footer-bg-2: #0091ff;
   --copyright-bg-1: #323336;
   --heading-color: #1D2635;
   --body-color: #667085;
@@ -14046,3 +14046,27 @@ blockquote .blockquote-contents-title {
   z-index: 9999 !important;
 }
 /* FIX BACK TO TOP INDEX POSITION END */
+
+/* CUSTOM STRIPED LIST CODE */
+/* ul.striped-list > li:nth-of-type(odd) {
+  background-color: var(--gray-color) ;
+} */
+/* CUSTOM STRIPED LIST CODE END */
+
+/* CUSTOM SECTION TITLE MAX-WIDTH  */
+.section-title.center-text {
+  max-width: 767px;
+}
+/* CUSTOM SECTION TITLE MAX-WIDTH END */
+
+/* CUSTOM COLORS  */
+.bg--main-color {
+  background-color: var(--main-color-one);
+}
+.text-main-color {
+  color: var(--main-color-one);
+}
+.bg--main-gradient {
+  background: linear-gradient(180deg, var(--main-color-one), black);
+}
+/* CUSTOM COLORS END */
