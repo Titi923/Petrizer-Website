@@ -13813,10 +13813,43 @@ blockquote .blockquote-contents-title {
   .mouse-move { display: none !important; }
 }
 
+/* INDEX PAGE CUSTOM CSS */
 .custom--banner-single-content-title {
   font-size: 32px;
   line-height: 48px;
 }
+/* MODIFIY THE COLORS */
+div[class*=col]:nth-child(4n+3) .single-why-two-icon {
+  background-color: rgba(var(--secondary-color-rgb), 0.2);
+  color: gold;
+}
+div[class*=col]:nth-child(4n+3) .single-why-two:hover {
+  border-color: gold;
+}
+div[class*=col]:nth-child(4n+3) .single-why-two:hover::before {
+  background-color: gold;
+}
+div[class*=col]:nth-child(4n+3) .single-why-two:hover .single-why-two-icon {
+  background-color: #fff;
+  color: gold;
+}
+
+
+div[class*=col]:nth-child(4n+4) .single-why-two::before {
+  background-color: #ff400c;
+}
+div[class*=col]:nth-child(4n+4) .single-why-two-icon {
+  background-color: rgb(255, 64, 12, .2);
+  color: #ff400c;
+}
+div[class*=col]:nth-child(4n+4) .single-why-two:hover {
+  border-color: #ff400c;
+}
+div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
+  background-color: #fff;
+  color: #ff400c;
+}
+/* MODIFIY THE COLORS END */
 
 @media only screen and (max-width: 991.8px) {
   .custom--swap-order__mobile { order: 1; }
@@ -14055,7 +14088,7 @@ blockquote .blockquote-contents-title {
 
 /* CUSTOM SECTION TITLE MAX-WIDTH  */
 .section-title.center-text {
-  max-width: 767px;
+  max-width: 700;
 }
 /* CUSTOM SECTION TITLE MAX-WIDTH END */
 
@@ -14070,3 +14103,4 @@ blockquote .blockquote-contents-title {
   background: linear-gradient(180deg, var(--main-color-one), black);
 }
 /* CUSTOM COLORS END */
+
