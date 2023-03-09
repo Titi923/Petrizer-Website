@@ -14044,6 +14044,7 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
     transform: translateY(-75%) !important;
   }
 }
+
 /* FIX NAVBAR MOBILE TOGGLER POSITON END*/
 @media only screen and (max-width: 991px)
 { .navbar-area .nav-container .navbar-collapse .navbar-nav { background: #eee !important; } }
@@ -14057,7 +14058,7 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 
 @media (min-width: 300px) and (max-width: 991.98px) {
   .show-nav-content.show {
-    margin-top: 50px;
+    margin-top: 3rem !important;
   }
 
   .show-nav-content {
