@@ -14128,3 +14128,12 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 }
 /* CUSTOM COLORS END */
 
+/* CUSTOM NAVBAR SUBMENU */
+.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu{
+  border-bottom: 0px solid var(--main-color-one);
+}
+
+.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li + li {
+  border-top: 0px solid #e2e2e2;
+}
+/* CUSTOM NAVBAR SUBMENU END*/
