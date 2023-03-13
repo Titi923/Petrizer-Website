@@ -13808,17 +13808,48 @@ blockquote .blockquote-contents-title {
 }
 
 /* Custom CSS */
+/* COLORS  */
+.bg--main-color {
+  background-color: var(--main-color-one);
+}
+.text-main-color {
+  color: var(--main-color-one);
+}
+.bg--main-gradient {
+  background: linear-gradient(180deg, var(--main-color-one), black);
+}
+/* COLORS END */
+
 /* if user is from a phone deactivate the mouse-move script to not induce in error the user (because when he taps somewhere, the cirlce remains in that location) */
 @media (max-width: 991.98px) {
   .mouse-move { display: none !important; }
 }
 
-/* INDEX PAGE CUSTOM CSS */
+/* FIX BACK TO TOP INDEX POSITION */
+.back-to-top {
+  z-index: 9999 !important;
+}
+/* FIX BACK TO TOP INDEX POSITION END */
+
+/* SWAP ORDER MOBILE */
+@media only screen and (max-width: 991.8px) {
+  .custom--swap-order__mobile { order: 1; }
+}
+/* SWAP ORDER MOBILE END */
+
+/* SECTION TITLE MAX-WIDTH  */
+.section-title.center-text {
+  max-width: 767px;
+}
+/* SECTION TITLE MAX-WIDTH END */
+
+/* INDEX PAGE CSS */
 .custom--banner-single-content-title {
   font-size: 32px;
   line-height: 48px;
 }
-/* MODIFIY THE COLORS */
+
+/* MODIFIY THE COLORS WHY HOTEL IS SPECIAL */
 div[class*=col]:nth-child(4n+3) .single-why-two-icon {
   background-color: rgba(var(--secondary-color-rgb), 0.2);
   color: gold;
@@ -13833,8 +13864,7 @@ div[class*=col]:nth-child(4n+3) .single-why-two:hover .single-why-two-icon {
   background-color: #fff;
   color: gold;
 }
-
-
+/* */
 div[class*=col]:nth-child(4n+4) .single-why-two::before {
   background-color: #ff400c;
 }
@@ -13849,13 +13879,10 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
   background-color: #fff;
   color: #ff400c;
 }
-/* MODIFIY THE COLORS END */
-/* INDEX PAGE CUSTOM CSS END */
-@media only screen and (max-width: 991.8px) {
-  .custom--swap-order__mobile { order: 1; }
-}
+/* MODIFIY THE COLORS WHY HOTEL IS SPECIAL END */
+/* INDEX PAGE CSS END */
 
-/* FIX NAVBAR 991 breakpoint */
+/* FIX NAVBAR 991 breakpoint + navbar padding */
 @media only screen and (max-width: 991.8px) {
   .navbar-area.white-nav .nav-container .navbar-collapse .navbar-nav {
     background-color: var(--heading-color);
@@ -13941,8 +13968,9 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
     position: relative;
     z-index: 0;
     min-height: 50px;
-    padding: 20px 20px 30px !important;
+    padding: 20px 20px 35px !important;
   }
+  
   .navbar-area .nav-container .responsive-mobile-menu {
     display: block;
     position: relative;
@@ -14026,40 +14054,28 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 }
 /* FIX NAVBAR 991 breakpoint END */
 
-/* CUSTOM NAVBAR */
+/* NAVBAR */
 .logo-wrapper .logo img{
   box-shadow: -2px 1px 10px 1px #1825369e !important;
   border-radius: 5px !important;
 }
 
-@media (min-width: 300px) and (max-width: 991.98px) {
-  .navbar-area .nav-container .logo-wrapper {
-    height: 32px;
-  }
-}
+/* logo size */
+@media (min-width: 300px) and (max-width: 991.98px) { .navbar-area .nav-container .logo-wrapper { height: 32px; } }
 
 /* FIX NAVBAR MOBILE TOGGLER POSITON */
-@media only screen and (max-width: 991px) {
-  .navbar-area .navbar-toggler {
-    transform: translateY(-75%) !important;
-  }
-}
-
+@media only screen and (max-width: 991.98px) { .navbar-area .navbar-toggler { transform: translateY(-75%) !important; } }
 /* FIX NAVBAR MOBILE TOGGLER POSITON END*/
-@media only screen and (max-width: 991px)
-{ .navbar-area .nav-container .navbar-collapse .navbar-nav { background: #eee !important; } }
 
-/* TRANSLATE BUTTON */
-@media (min-width: 300px) and (max-width: 991.98px) {
-  .click-nav-right-icon {
-    transform: translateY(-75%) !important;
-  }
-}
+/* MENU LIST MOBILE COLOR */
+@media only screen and (max-width: 991.98px) { .navbar-area .nav-container .navbar-collapse .navbar-nav { background: #eee !important; } }
+/* MENU LIST MOBILE COLOR END */
+
+/* TRANSLATE DROPDOWN */
+@media (min-width: 300px) and (max-width: 991.98px) { .click-nav-right-icon { transform: translateY(-75%) !important; } }
 
 @media (min-width: 300px) and (max-width: 991.98px) {
-  .show-nav-content.show {
-    margin-top: 3rem !important;
-  }
+  .show-nav-content.show { margin-top: 3rem !important; }
 
   .show-nav-content {
     visibility: hidden;
@@ -14071,90 +14087,6 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
     margin-right: auto;
   }
 }
-/* TRANSLATE BUTTON END */
-/* CUSTOM NAVBAR END */
-
-/* LISTING ROOMS FIX CARD IMG HEIGHT */
-.hotel-view-grid-thumb {
-  height: 195px !important;
-}
-
-@media (min-width: 1400px) and (max-width: 1599.98px) {
-  .hotel-view-grid-thumb {
-    height: 194px !important;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 991.98px) {
-  .hotel-view-grid-thumb {
-      height: 157px !important;
-  }
-}
-
-@media only screen and (max-width: 767.98px) {
-  .hotel-view-grid-thumb {
-    height: 241px !important;
-  }
-}
-/* LISTING ROOMS FIX CARD IMG HEIGHT END */
-
-/* FIX BACK TO TOP INDEX POSITION */
-.back-to-top {
-  z-index: 9999 !important;
-}
-/* FIX BACK TO TOP INDEX POSITION END */
-
-/* CUSTOM STRIPED LIST CODE */
-/* ul.striped-list > li:nth-of-type(odd) {
-  background-color: var(--gray-color) ;
-} */
-/* CUSTOM STRIPED LIST CODE END */
-
-/* CUSTOM SECTION TITLE MAX-WIDTH  */
-.section-title.center-text {
-  max-width: 767px;
-}
-/* CUSTOM SECTION TITLE MAX-WIDTH END */
-
-/* CUSTOM COLORS  */
-.bg--main-color {
-  background-color: var(--main-color-one);
-}
-.text-main-color {
-  color: var(--main-color-one);
-}
-.bg--main-gradient {
-  background: linear-gradient(180deg, var(--main-color-one), black);
-}
-/* CUSTOM COLORS END */
-
-/* CUSTOM NAVBAR SUBMENU */
-.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu {
-  border-bottom: none;
-  min-height: 0;
-}
-
-.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li {
-  border-bottom: 3px solid var(--main-color-one);
-  margin-bottom: 0 !important
-}
-
-@media only screen and (max-width: 991.8px) {
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu {
-    overflow: initial !important;
-  }
-}
-
-.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li + li {
-  border-top: 0px solid #e2e2e2;
-}
-
-.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:hover > .sub-menu {
-  height: 100%;
-}
-/* CUSTOM NAVBAR SUBMENU END*/
-
-/* FLAGS */
 .flag-icon {
   background-size: contain;
   background-position: 50%;
@@ -14165,10 +14097,34 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
   line-height: 1em;
   margin-top: -3px !important;
 }
-/* FLAGS END */
+/* TRANSLATE DROPDOWN END */
+/* NAVBAR END */
 
-@media only screen and (max-width: 991.8px) {
-  .navbar-area .nav-container {
-      padding: 20px 20px 40px !important;
-  }
+/* LISTING ROOMS FIX CARD IMG HEIGHT */
+.hotel-view-grid-thumb { height: 195px !important; }
+
+@media (min-width: 1400px) and (max-width: 1599.98px) { .hotel-view-grid-thumb { height: 194px !important; } }
+
+@media (min-width: 300px) and (max-width: 991.98px) { .hotel-view-grid-thumb { height: 157px !important; } }
+
+@media only screen and (max-width: 767.98px) { .hotel-view-grid-thumb { height: 241px !important; } }
+/* LISTING ROOMS FIX CARD IMG HEIGHT END */
+
+/* NAVBAR SUBMENU */
+.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu { border-bottom: none; }
+
+/* hide by default */
+.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li {
+  border-bottom: 3px solid var(--main-color-one);
+  margin-bottom: 0 !important;
+  display: none;
 }
+
+/* display on hover */
+.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:hover .sub-menu li { display: block; }
+
+/* deactivate the scroll on submenu expand */
+@media only screen and (max-width: 991.8px) { .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu { overflow: initial !important; } }
+
+.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li + li { border-top: 0; }
+/* NAVBAR SUBMENU END*/
