@@ -5997,7 +5997,7 @@ span {
 }
 .custom-form .single-input .form-message,
 .custom-form .form-group .form-message {
-  height: 200px;
+  height: 100px;
   line-height: 28px;
   padding: 15px;
 }
@@ -14128,3 +14128,7 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li + li { border-top: 0; }
 /* NAVBAR SUBMENU END*/
+
+.shadow-primary {
+  box-shadow: 0px 0px 10px -3px var(--main-color-one);
+}
