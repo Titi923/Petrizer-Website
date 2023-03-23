@@ -1,3 +1,13 @@
+HEAD =============
+Description ROMANIAN =============
+Cautati un hotel confortabil si convenabil in Cluj-Napoca? Nu este nevoie sa mai cautati! Hotelul nostru este situat pe strada Observatorului, in fermecatoarea parte de sud a orasului. Locatia noastra privilegiata ofera acces usor la numeroasele atractii din Cluj, inclusiv Gradina Botanica si Centrul Vechi. Camerele noastre sunt spatioase si bine dotate, cu toate facilitatile de care aveti nevoie pentru un sejur confortabil. Fie ca sunteti in oras pentru afaceri sau pentru placere, Hotel Olimp este alegerea perfecta pentru urmatoarea dvs. calatorie la Cluj-Napoca. Rezerva-ti sederea la noi astazi!
+
+Description ENGLISH =============
+Looking for a comfortable and convenient hotel in Cluj-Napoca? Look no further than Hotel Olimp! Our hotel is located on Observatorului street, in the charming southern part of the city. Our prime location provides easy access to Cluj's many attractions, including the Botanical Garden and the Old Town. Our rooms are spacious and well-appointed, with all the amenities you need for a comfortable stay. Whether you're in town for business or pleasure, Hotel Olimp is the perfect choice for your next trip to Cluj-Napoca. Book your stay with us today!
+
+HEAD END =============
+
+
 ==================================================================================================================================
 
 // 1. INDEX PAGE ================================
