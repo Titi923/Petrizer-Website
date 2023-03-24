@@ -66,7 +66,7 @@
                                             <div class="banner-location-single-contents">
                                                 <span class="banner-location-single-contents-subtitle"> Check In </span>
                                                 <div class="banner-location-single-contents-dropdown custom-select">
-                                                    <input type="date" name="" id="" class="custom--nice_date">
+                                                    <input type="date" name="" id="CheckInDate" class="custom--nice_date">
                                                 </div>
                                             </div>
                                         </div>
@@ -606,5 +606,10 @@
     <script src="assets/js/intlTelInput.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        let today = new Date().toISOString().split('T')[0];
+        document.getElementById("CheckInDate").setAttribute("min", today);
+    </script>
 </body>
 </html>
