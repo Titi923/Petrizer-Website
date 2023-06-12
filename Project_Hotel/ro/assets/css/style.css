@@ -13875,6 +13875,16 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
   color: #ff400c;
 }
 /* MODIFIY THE COLORS WHY HOTEL IS SPECIAL END */
+
+.custom--reservation-btn {
+    font-size: 50px;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
 /* INDEX PAGE CSS END */
 
 /* FIX NAVBAR 991 breakpoint + navbar padding */
