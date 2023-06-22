@@ -13820,6 +13820,13 @@ blockquote .blockquote-contents-title {
   .mouse-move { display: none !important; }
 }
 
+/* Utilities */
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+/* Utilities END */
+
 /* FIX BACK TO TOP INDEX POSITION */
 .back-to-top {
   z-index: 9999 !important;
@@ -14113,6 +14120,15 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 @media (min-width: 300px) and (max-width: 991.98px) { .hotel-view-grid-thumb { height: 157px !important; } }
 
 @media only screen and (max-width: 767.98px) { .hotel-view-grid-thumb { height: 241px !important; } }
+
+.hotel-view-contents-header {
+    padding: 10px 20px 20px;
+}
+.hotel-view-contents-title {
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
 /* LISTING ROOMS FIX CARD IMG HEIGHT END */
 
 /* NAVBAR SUBMENU */

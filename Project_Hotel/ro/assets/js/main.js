@@ -567,7 +567,6 @@
         });
     });
     // Fix Masonry on very first visit END
-    
     // Custom js END
 
 })(jQuery);
