@@ -129,14 +129,14 @@
                                         <div class="single-input mt-4">
                                             <input
                                                 type="text"
-                                                class="form--control radius-5"
+                                                class="form--control radius-5 text-black"
                                                 placeholder="Prenume"
                                             />
                                         </div>
                                         <div class="single-input mt-4">
                                             <input
                                                 type="text"
-                                                class="form--control radius-5"
+                                                class="form--control radius-5 text-black"
                                                 placeholder="Nume"
                                             />
                                         </div>
@@ -145,14 +145,14 @@
                                         <div class="single-input mt-4">
                                             <input
                                                 type="text"
-                                                class="form--control radius-5"
+                                                class="form--control radius-5 text-black"
                                                 placeholder="Email"
                                             />
                                         </div>
                                         <div class="single-input mt-4">
                                             <input
                                                 type="tel"
-                                                class="form--control radius-5"
+                                                class="form--control radius-5 text-black"
                                                 id="phone"
                                                 placeholder="Numar de telefon"
                                             />
@@ -174,12 +174,12 @@
                                 </form>
                             </div> -->
 
-                            <div class="banner-location banner-location-one bg-white radius-5 mt-5">
+                            <div class="banner-location banner-location-one bg-white radius-5 mt-5 w-100">
                                 <div class="banner-location-flex">
                                     <div class="banner-location-single">
                                         <div class="banner-location-single-flex">
                                             <div class="banner-location-single-icon">
-                                                <i class="las la-calendar"></i>
+                                                <i class="las la-calendar mt-4"></i>
                                             </div>
                                             <div class="banner-location-single-contents">
                                                 <span class="banner-location-single-contents-subtitle"> Check In </span>
@@ -192,7 +192,7 @@
                                     <div class="banner-location-single">
                                         <div class="banner-location-single-flex">
                                             <div class="banner-location-single-icon">
-                                                <i class="las la-calendar"></i>
+                                                <i class="las la-calendar mt-4"></i>
                                             </div>
                                             <div class="banner-location-single-contents">
                                                 <span class="banner-location-single-contents-subtitle"> Check Out </span>
@@ -202,19 +202,16 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="banner-location-single">
                                         <div class="banner-location-single-flex">
                                             <div class="banner-location-single-icon">
-                                                <i class="las la-user-friends"></i>
+                                                <i class="las la-user-friends mt-4"></i>
                                             </div>
                                             <div class="banner-location-single-contents">
-                                                <span class="banner-location-single-contents-subtitle"> Adulti </span>
-                                                <div class="banner-location-single-contents-dropdown custom-select">
-                                                    <select class="js-select select-style-two" name="state">
-                                                        <option value="1">1 Adult</option>
-                                                        <option value="2">2 Adulti</option>
-                                                        <option value="3">3 Adulti</option>
-                                                    </select>
+                                                <span class="details-sidebar-quantity-title text-black"> Oaspeti </span>
+                                                <div class="details-sidebar-quantity-field">
+                                                    <span class="minus"><i class="las la-minus"></i></span><input class="quantity-input" type="number" value="1"><span class="plus"><i class="las la-plus"></i></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -222,23 +219,19 @@
                                     <div class="banner-location-single">
                                         <div class="banner-location-single-flex">
                                             <div class="banner-location-single-icon">
-                                                <i class="las la-user-friends"></i>
+                                                <i class="las la-user-friends mt-4"></i>
                                             </div>
                                             <div class="banner-location-single-contents">
-                                                <span class="banner-location-single-contents-subtitle"> Copii </span>
-                                                <div class="banner-location-single-contents-dropdown custom-select">
-                                                    <select class="js-select select-style-two" name="state">
-                                                        <option value="0">Niciun Copil</option>
-                                                        <option value="1">1 Copil</option>
-                                                        <option value="2">2 Copii</option>
-                                                        <option value="3">3 Copii</option>
-                                                    </select>
+                                                <span class="details-sidebar-quantity-title text-black"> Copii </span>
+                                                <div class="details-sidebar-quantity-field">
+                                                    <span class="minus"><i class="las la-minus"></i></span><input class="quantity-input" type="number" value="0"><span class="plus"><i class="las la-plus"></i></span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                 </div>
-                                <div class="details-sidebar-quantity pt-4">
+                                <!-- <div class="details-sidebar-quantity pt-4">
                                     <div class="details-sidebar-quantity-flex">
                                         <div class="details-sidebar-quantity-item">
                                             <h6 class="details-sidebar-quantity-title"> Oaspeti </h6>
@@ -253,48 +246,59 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="contact-contents-form custom-form">
                                     <form action="#">
-                                        <div class="single-flex-input mt-4">
+                                        <div class="single-flex-input mt-0">
                                             <div class="single-input mt-4">
+                                                <span class="banner-location-single-contents-subtitle"> Prenume </span>
                                                 <input
                                                     type="text"
-                                                    class="form--control radius-5"
+                                                    class="form--control radius-5 text-black"
                                                     placeholder="Prenume"
                                                 />
                                             </div>
                                             <div class="single-input mt-4">
+                                                <span class="banner-location-single-contents-subtitle"> Nume </span>
                                                 <input
                                                     type="text"
-                                                    class="form--control radius-5"
+                                                    class="form--control radius-5 text-black"
                                                     placeholder="Nume"
                                                 />
                                             </div>
                                         </div>
                                         <div class="single-flex-input mt-0">
                                             <div class="single-input mt-4">
+                                                <span class="banner-location-single-contents-subtitle"> Email </span>
                                                 <input
                                                     type="text"
-                                                    class="form--control radius-5"
+                                                    class="form--control radius-5 text-black"
                                                     placeholder="Email"
                                                 />
                                             </div>
                                             <div class="single-input mt-4">
+                                                <span class="banner-location-single-contents-subtitle"> Numar de Telefon </span>
                                                 <input
                                                     type="tel"
-                                                    class="form--control radius-5"
-                                                    id="phone"
-                                                    placeholder="Numar de telefon"
+                                                    class="form--control radius-5 text-black"
+                                                    placeholder="+40"
                                                 />
                                             </div>
                                         </div>
     
                                         <div class="single-input mt-4">
+                                            <span class="banner-location-single-contents-subtitle mt-4"> Observatii (Optional) </span>
+                                            
                                             <textarea
                                                 class="form--control form-message radius-5 custom--textarea_height"
                                                 placeholder="Va rugam specificati datele in care doriti sa va cazati..."
                                             ></textarea>
+                                        </div>
+                                        <div class="checkbox-wrap mt-4">
+                                            <div class="checkbox-inline">
+                                                <input class="check-input" type="checkbox" id="agree" required>
+                                                <label class="checkbox-label" for="agree"> Sunt de acord cu <a href="javascript:void(0)">Termenii si Conditiile</a> si <a href="javascript:void(0)">Prelucrarea datelor cu caracter personal.</a> </label>
+                                            </div>
                                         </div>
                                         <button
                                             type="submit"
