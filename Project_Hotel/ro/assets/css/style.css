@@ -31,6 +31,7 @@ Version: 1.0.0
   --body-color: #667085;
   --gray-color: #f8f8f8;
   --input-color: #EAECF0;
+  /* --input-color: #d9dbdf; */
   --paragraph-color: #667085;
   --light-color: #696969;
   --success-color: #00C897;
@@ -14167,6 +14168,7 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 textarea.custom--textarea_height { min-height: 150px !important; }
 /* Custom textarea height apartments END */
 
+/* RESERVATION FORM */
 /* STYLE FOR INPUT DATE TYPE */
 .custom--nice_date {
   width: 100%;
@@ -14174,13 +14176,13 @@ textarea.custom--textarea_height { min-height: 150px !important; }
   line-height: 55px;
   font-size: 15px;
   font-weight: 400;
-  color: var(--paragraph-color);
+  color: var(black);
   border: 1px solid var(--input-color);
   -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.01);
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.01);
   -webkit-transition: 300ms;
   transition: 300ms;
-  padding: 0 30px 0 15px;
+  padding: 15px 15px 15px 15px;
 }
 
 .custom--date-picker__relative {
@@ -14197,3 +14199,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 100%;
 }
 /* STYLE FOR INPUT DATE TYPE END */
+
+/* Padding of the Guests & Kids input form */
+.details-sidebar-quantity-field {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+/* Padding of the Guests & Kids input form END */
+/* FIX GRID SYSTEM */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .banner-location-single {
+        -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+    }
+}
+/* FIX GRID SYSTEM END */
+
+/* RESERVATION FORM */
